@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.img-section{
+    display: grid;
+    grid-row: span 3;
+    font-weight: bold;
+    font-size: 20px;
+    border: solid black 1px;
+    padding: 10px;
+}
+
+.header-section{
+    display: grid;
+    font-weight: bold;
+    font-size: 20px;
+    border: solid black 1px;
+    padding: 10px;
+}
+
+.form-section{
+    display: grid;
+    font-weight: bold;
+    font-size: 20px;
+    border: solid black 1px;
+    padding: 10px;
+}
+
+.cta-section{
+    display: grid;
+    font-weight: bold;
+    font-size: 20px;
+    border: solid black 1px;
+    padding: 10px;
+}
