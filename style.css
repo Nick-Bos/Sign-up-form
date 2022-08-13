@@ -1,9 +1,9 @@
 body{
     margin: 0;
+    height: 100vh;
 }
 
 .container{
-    height: 100vh;
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: repeat(3, 1fr);
@@ -15,7 +15,18 @@ body{
     font-weight: bold;
     font-size: 20px;
     border: solid black 1px;
-    padding: 10px;
+}
+
+.img-section>p{
+    font-size: 14px;
+    position: absolute;
+    margin-left: 16em;
+    margin-top: 72em;
+    color: antiquewhite;
+}
+
+.img-section>p>a{
+    color: antiquewhite;
 }
 
 .header-section{
@@ -40,4 +51,8 @@ body{
     font-size: 20px;
     border: solid black 1px;
     padding: 10px;
+}
+
+.accbtn{
+    background-color: #596D48;
 }
