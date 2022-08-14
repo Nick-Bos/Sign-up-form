@@ -29,6 +29,18 @@ body{
     color: antiquewhite;
 }
 
+.logodiv{
+    background-color:   black;
+    opacity: 50%;
+    position: absolute;
+    margin-top: 8.5em;
+    padding: 0em 13.45em
+}
+
+.logodiv>img{
+    height: 10em
+}
+
 .header-section{
     display: grid;
     font-weight: bold;
