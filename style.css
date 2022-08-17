@@ -17,7 +17,7 @@ body{
     border: solid black 1px;
 }
 
-.img-section>p{
+.photo-credit{
     font-size: 14px;
     position: absolute;
     margin-left: 16em;
@@ -38,31 +38,66 @@ body{
 }
 
 .logodiv>img{
-    height: 10em
+    height: 10em;
+}
+
+.odin-text {
+    position: absolute;
+    color: antiquewhite;
+    margin-left: 20em;
+    margin-top: 13em;
+    
 }
 
 .header-section{
     display: grid;
     font-weight: bold;
     font-size: 20px;
-    border: solid black 1px;
     padding: 10px;
+    background-color: rgb(245, 245, 245);
 }
 
-.form-section{
+form{
     display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     font-weight: bold;
     font-size: 20px;
-    border: solid black 1px;
     padding: 10px;
+    grid-gap: 1em;
+}
+
+h3, label{
+    margin-left: 2em;
+}
+
+h3{
+    padding-bottom: 1em;
+}
+
+input, label{
+    display: block;
+}
+
+input{
+    width: 17em;
+    font-size: 20px;
+    margin-left: 1.6em;
+}
+
+label{
+    padding-bottom: .2em;
+    font-size: 16px;
+    text-transform: uppercase;
 }
 
 .cta-section{
     display: grid;
     font-weight: bold;
     font-size: 20px;
-    border: solid black 1px;
+
     padding: 10px;
+    background-color: rgb(245, 245, 245);
 }
 
 .accbtn{
