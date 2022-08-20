@@ -20,7 +20,6 @@ body{
     grid-row: span 3;
     font-weight: bold;
     font-size: 20px;
-    border: solid black 1px;
 }
 
 .photo-credit{
@@ -32,7 +31,7 @@ body{
 }
 
 .img-section>p>a{
-    color: antiquewhite;
+    color: #fafafa
 }
 
 .logodiv{
@@ -40,19 +39,22 @@ body{
     opacity: 50%;
     position: absolute;
     margin-top: 8.5em;
-    padding: 0em 13.45em
+    padding: 0em 13.40em
 }
 
 .logodiv>img{
     height: 10em;
+    color: #fafafa;
+
 }
 
 .odin-text {
     position: absolute;
-    color: antiquewhite;
-    margin-left: 20em;
-    margin-top: 13em;
+    color: #fafafa;
     font-family: "Norse Bold";
+    font-size: 5em;
+    margin-top: 2.2em;
+    margin-left: 4.2em;
 }
 
 .header-section{
