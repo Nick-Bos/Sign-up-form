@@ -27,7 +27,7 @@ body{
     position: absolute;
     margin-left: 16em;
     margin-top: 72em;
-    color: antiquewhite;
+    color: #fafafa;
 }
 
 .img-section>p>a{
@@ -65,8 +65,13 @@ body{
 .header-section{
     display: grid;
     font-weight: bold;
-    font-size: 20px;
-    padding: 10px;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 4.5em;
+    margin-bottom: 0;
+    margin-left: 2em;
+    max-width: 31em;
+    max-height: 8em;
 }
 
 form{
@@ -83,13 +88,18 @@ form{
     background-color: #fafafa;
     box-shadow: 5px 5px 15px -5px grey
 }
-
+p{
+    margin: 0;
+}
 h3, label{
     margin-left: 2em;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h3{
     padding-bottom: 1em;
+    font-size: 1.5em;
+    padding-bottom: 0;
 }
 
 input, label{
@@ -100,6 +110,7 @@ input{
     width: 17em;
     font-size: 20px;
     margin-left: 1.6em;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 label{
@@ -113,8 +124,32 @@ label{
     font-weight: bold;
     font-size: 20px;
     padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.accbtn{
+button{
     background-color: #596D48;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 2em;
+    margin-top: 2em;
+    width: 13em;
+    height:3em;
+    border-radius: 9px;
+    border: 0px;
+    padding: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fafafa;
+
+}
+
+.cta-section>p{
+    font-size: 20px;
+    margin-left: 2em;
+    margin-top: -3em
+}
+
+.cta-section>p>a{
+    color: #596D48;
+    text-decoration: none;
 }
